@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def media_simples(a, b, c):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(media_simples(80, 90, 85))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert media_simples(80, 90, 85) == 85.0
+assert media_simples(70, 75, 80) == 75.0
+assert media_simples(100, 65, 90) == 85.0
+assert media_simples(50, 60, 70) == 60.0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
